@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-05T12:30:00.000Z",
+  "title": "Design System: Ahmad Baabod Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "darkroom": {
+        "role": "neutral",
+        "displayName": "Darkroom Brown",
+        "canonical": "#211911",
+        "tonalRamp": ["#0e0b08", "#17120e", "#211911", "#30251b", "#51483d", "#89877f", "#c2b9ab", "#eee8dc"]
+      },
+      "safelight-amber": {
+        "role": "primary",
+        "displayName": "Safelight Amber",
+        "canonical": "#e6a14a",
+        "tonalRamp": ["#2f1e0a", "#583511", "#8d541f", "#bd7931", "#e6a14a", "#f1bd72", "#f7d29d", "#fff1d9"]
+      },
+      "amber-light": {
+        "role": "secondary",
+        "displayName": "Amber Light",
+        "canonical": "#f1bd72",
+        "tonalRamp": ["#35230e", "#644219", "#966425", "#c58d42", "#e0aa5d", "#f1bd72", "#f7d49e", "#fff1da"]
+      },
+      "print-paper": {
+        "role": "neutral",
+        "displayName": "Print Paper",
+        "canonical": "#eee8dc",
+        "tonalRamp": ["#201d18", "#39342d", "#5a534a", "#847b6f", "#b2a898", "#d0c7b9", "#e1dacd", "#eee8dc"]
+      },
+      "silver-print": {
+        "role": "tertiary",
+        "displayName": "Silver Print",
+        "canonical": "#c9c7c0",
+        "tonalRamp": ["#20201e", "#393835", "#5a5852", "#85827a", "#aaa79f", "#c9c7c0", "#dedcd6", "#f2f1ed"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Condensed Print Display",
+        "purpose": "Hero name and large section headings."
+      },
+      "body": {
+        "displayName": "Clear Workroom Sans",
+        "purpose": "Descriptions, project details, and navigation."
+      },
+      "label": {
+        "displayName": "Grease Pencil Caption",
+        "purpose": "Compact uppercase project categories and short labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "portrait-print",
+        "value": "0 28px 80px rgba(0, 0, 0, .35)",
+        "purpose": "Lift the portrait paper mat from the darkroom."
+      },
+      {
+        "name": "academic-paper",
+        "value": "0 14px 32px rgba(33, 29, 24, .08)",
+        "purpose": "Subtle separation for the academic paper surface."
+      }
+    ],
+    "motion": [
+      {
+        "name": "print-emerge",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "One restrained reveal that resembles a print coming into view."
+      },
+      {
+        "name": "control-shift",
+        "value": "0.2s ease",
+        "purpose": "Short, clear button state transitions."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "compact",
+        "value": "430px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "A decisive amber action with square corners.",
+      "html": "<a class=\"ds-button\" href=\"#\">Explore my work <span aria-hidden=\"true\">→</span></a>",
+      "css": ".ds-button { display: inline-flex; align-items: center; justify-content: center; gap: .65rem; min-height: 48px; padding: .7rem 1.2rem; border: 1px solid #e6a14a; background: #e6a14a; color: #211d18; font: 700 1rem 'Source Sans 3', 'Segoe UI', sans-serif; text-decoration: none; transition: background .2s ease, transform .2s ease; } .ds-button:hover { background: #f1bd72; transform: translateY(-2px); } .ds-button:focus-visible { outline: 3px solid #f1bd72; outline-offset: 4px; } .ds-button:active { transform: translateY(0); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A quiet outlined action for contact and secondary navigation.",
+      "html": "<a class=\"ds-button-secondary\" href=\"#\">Get in touch</a>",
+      "css": ".ds-button-secondary { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: .7rem 1.2rem; border: 1px solid rgba(238, 232, 220, .2); background: transparent; color: #eee8dc; font: 700 1rem 'Source Sans 3', 'Segoe UI', sans-serif; text-decoration: none; transition: background .2s ease, transform .2s ease; } .ds-button-secondary:hover { background: #30251b; transform: translateY(-2px); } .ds-button-secondary:focus-visible { outline: 3px solid #f1bd72; outline-offset: 4px; }"
+    },
+    {
+      "name": "Station Navigation",
+      "kind": "nav",
+      "description": "A compact station index with readable, understated links.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Portfolio sections\"><a href=\"#projects\">Projects</a><a href=\"#study\">Study log</a><a href=\"#contact\">Contact</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 1.25rem; overflow-x: auto; } .ds-nav a { padding-block: 1rem; color: #c2b9ab; font: 500 .9rem 'Source Sans 3', 'Segoe UI', sans-serif; text-decoration: none; white-space: nowrap; } .ds-nav a:hover { color: #f1bd72; } .ds-nav a:focus-visible { outline: 3px solid #f1bd72; outline-offset: 2px; }"
+    },
+    {
+      "name": "Project Tag",
+      "kind": "chip",
+      "refersTo": "project-tag",
+      "description": "A thin outlined caption for a project's technologies.",
+      "html": "<span class=\"ds-tag\">Machine learning</span>",
+      "css": ".ds-tag { display: inline-block; padding: .25rem .55rem; border: 1px solid rgba(238, 232, 220, .23); color: #e1d8ca; font: 500 .82rem 'Source Sans 3', 'Segoe UI', sans-serif; }"
+    },
+    {
+      "name": "Portrait Print",
+      "kind": "custom",
+      "description": "A real portrait framed as a silver print on paper.",
+      "html": "<figure class=\"ds-print\"><svg viewBox=\"0 0 160 200\" role=\"img\" aria-label=\"Portrait print\"><rect width=\"160\" height=\"200\" fill=\"#c9c7c0\"/><circle cx=\"80\" cy=\"64\" r=\"30\" fill=\"#89877f\"/><path d=\"M25 190c4-48 24-72 55-72s51 24 55 72\" fill=\"#30251b\"/></svg><figcaption>AHMAD BAABOD</figcaption></figure>",
+      "css": ".ds-print { position: relative; width: 280px; margin: 0; padding: 14px 14px 48px; background: #eee8dc; box-shadow: 0 28px 80px rgba(0, 0, 0, .35); transform: rotate(1.7deg); } .ds-print svg { display: block; width: 100%; aspect-ratio: 4 / 5; } .ds-print figcaption { position: absolute; right: 14px; bottom: 12px; left: 14px; color: #51483d; font: 600 .9rem 'Barlow Condensed', Impact, sans-serif; letter-spacing: .06em; }"
+    },
+    {
+      "name": "Project Record",
+      "kind": "custom",
+      "description": "A ruled project row built around factual work and a direct repository link.",
+      "html": "<article class=\"ds-project\"><h3>Search &amp; Knowledge Algorithms</h3><p>Coursework in graph search and knowledge representation.</p><a href=\"#\">View on GitHub ↗</a></article>",
+      "css": ".ds-project { display: grid; gap: .5rem; padding-block: 1.25rem; border-bottom: 1px solid rgba(238, 232, 220, .2); color: #eee8dc; } .ds-project h3 { margin: 0; font: 600 1.8rem/1 'Barlow Condensed', Impact, sans-serif; } .ds-project p { max-width: 65ch; margin: 0; color: #c2b9ab; font: 400 1rem/1.55 'Source Sans 3', 'Segoe UI', sans-serif; } .ds-project a { justify-self: start; color: #f1bd72; font: 700 .95rem 'Source Sans 3', 'Segoe UI', sans-serif; text-underline-offset: .2em; } .ds-project a:focus-visible { outline: 3px solid #f1bd72; outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Developer's Darkroom",
+    "overview": "The portfolio treats experience as a body of work brought into view one print at a time. Safelight amber warms a deep brown workroom; silver-gray type, paper-colored fields, enamel edges, and restrained grease-pencil captions carry information with a tactile photographic character.\n\nThe visual language is confident and precise, with the work itself kept legible. Project descriptions and credentials stay factual, navigation remains direct, and the large display lettering provides the main expressive gesture.",
+    "keyCharacteristics": [
+      "Amber light against deep brown, with paper and silver-print neutrals.",
+      "Condensed uppercase display headlines paired with clear humanist body copy.",
+      "Print mats, contact-sheet rows, and workbench-like dividers create structure.",
+      "Square-edged controls and simple underlined links favor directness."
+    ],
+    "rules": [
+      {
+        "name": "The Legible Print Rule",
+        "body": "Amber may mark emphasis, but body copy and supporting project details remain high-contrast and easy to scan.",
+        "section": "colors"
+      },
+      {
+        "name": "The Caption and Print Rule",
+        "body": "Reserve uppercase condensed lettering for identity and labels; set explanations in the body face.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do use the amber, paper, silver, and darkroom-brown palette consistently across light and dark sections.",
+      "Do make the actual project, course, and certificate information the focus of each section.",
+      "Do preserve clear keyboard focus and the mobile horizontal station index.",
+      "Do use display lettering for short headlines and readable body text for longer copy."
+    ],
+    "donts": [
+      "Don't use amber for long body passages or low-contrast labels.",
+      "Don't wrap every section in an identical rounded card.",
+      "Don't substitute glowing gradients, glass, or decorative motion for photographic-paper framing and tonal layers.",
+      "Don't imply credentials, project outcomes, or language proficiency beyond the confirmed source material."
+    ]
+  }
+}
