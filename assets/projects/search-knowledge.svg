@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img">
+  <title>Illustration of search and knowledge algorithms coursework</title>
+  <desc>A graph of connected nodes with a highlighted breadth-first search path.</desc>
+  <rect width="720" height="480" fill="#211911"/>
+  <path d="M32 32h656v416H32z" fill="#30251b" stroke="#68513a"/>
+  <text x="60" y="76" fill="#c2b9ab" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">ARTIFICIAL INTELLIGENCE / GRAPH SEARCH</text>
+  <g stroke="#89877f" stroke-width="3">
+    <path d="m142 218 162-78m-162 78 162 89m162-167-162 78m162-78 162 78m-324 89 162-89m-162 89 162 95m162-95 162 95"/>
+  </g>
+  <g stroke="#e6a14a" stroke-width="5">
+    <path d="m142 218 162 89m0 0 162-167m0 0 162 78"/>
+  </g>
+  <g fill="#211911" stroke="#c9c7c0" stroke-width="3">
+    <circle cx="142" cy="218" r="25"/><circle cx="304" cy="140" r="25"/>
+    <circle cx="466" cy="140" r="25"/><circle cx="304" cy="307" r="25"/>
+    <circle cx="466" cy="307" r="25"/><circle cx="628" cy="218" r="25"/>
+    <circle cx="466" cy="402" r="25"/>
+  </g>
+  <circle cx="142" cy="218" r="25" fill="#e6a14a" stroke="#f1bd72" stroke-width="3"/>
+  <circle cx="304" cy="307" r="25" fill="#e6a14a" stroke="#f1bd72" stroke-width="3"/>
+  <circle cx="466" cy="140" r="25" fill="#e6a14a" stroke="#f1bd72" stroke-width="3"/>
+  <circle cx="628" cy="218" r="25" fill="#e6a14a" stroke="#f1bd72" stroke-width="3"/>
+  <g fill="#eee8dc" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+    <text x="142" y="222">S</text><text x="304" y="144">A</text>
+    <text x="466" y="144">B</text><text x="304" y="311">C</text>
+    <text x="466" y="311">D</text><text x="628" y="222">G</text>
+    <text x="466" y="406">E</text>
+  </g>
+  <text x="60" y="419" fill="#eee8dc" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">BREADTH-FIRST SEARCH</text>
+  <path d="M60 435h234" stroke="#e6a14a" stroke-width="3"/>
+</svg>

@@ -21,7 +21,7 @@ Use the supplied portrait, confirmed Effat University and AI concentration detai
 
 ## Constraints
 
-Do not invent language proficiency, credentials, course outcomes, project metrics, or clinical claims. Keep the ACL recovery app supportive and not a substitute for clinical guidance. The supplied Drive folder was not accessible without sign-in.
+Do not invent language proficiency, credentials, course outcomes, project metrics, or clinical claims. Use original project illustrations where authentic screenshots are unavailable, and do not present them as captured product screens. Keep the ACL recovery app supportive and not a substitute for clinical guidance. The supplied Drive folder was not accessible without sign-in.
 
 ## Chosen direction and memorable moment
 

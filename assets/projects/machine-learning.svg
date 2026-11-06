@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img">
+  <title>Illustration of machine learning lab work</title>
+  <desc>A notebook-style data plot with sample points and a model boundary.</desc>
+  <rect width="720" height="480" fill="#211911"/>
+  <path d="M32 32h656v416H32z" fill="#30251b" stroke="#68513a"/>
+  <text x="60" y="76" fill="#c2b9ab" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">CS4082 / MACHINE LEARNING LABS</text>
+  <rect x="66" y="108" width="588" height="292" fill="#eee8dc"/>
+  <path d="M123 346h481M123 346V150" stroke="#665e53" stroke-width="2"/>
+  <g stroke="#c9c7c0" stroke-width="1">
+    <path d="M123 297h481M123 248h481M123 199h481M219 150v196M315 150v196M411 150v196M507 150v196"/>
+  </g>
+  <path d="M153 319c72-15 115-41 163-74 61-42 114-57 229-75" fill="none" stroke="#9b5b32" stroke-width="5"/>
+  <g fill="#e6a14a" stroke="#211911" stroke-width="2">
+    <circle cx="174" cy="301" r="8"/><circle cx="204" cy="289" r="8"/><circle cx="242" cy="282" r="8"/>
+    <circle cx="279" cy="255" r="8"/><circle cx="314" cy="243" r="8"/><circle cx="348" cy="221" r="8"/>
+    <circle cx="379" cy="213" r="8"/>
+  </g>
+  <g fill="#89877f" stroke="#211911" stroke-width="2">
+    <circle cx="234" cy="193" r="8"/><circle cx="271" cy="184" r="8"/><circle cx="311" cy="176" r="8"/>
+    <circle cx="352" cy="171" r="8"/><circle cx="392" cy="161" r="8"/><circle cx="435" cy="158" r="8"/>
+    <circle cx="481" cy="150" r="8"/>
+  </g>
+  <text x="126" y="379" fill="#665e53" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">DATA</text>
+  <text x="60" y="431" fill="#eee8dc" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">EXPERIMENT / LEARN / ITERATE</text>
+  <path d="M60 444h270" stroke="#e6a14a" stroke-width="3"/>
+</svg>

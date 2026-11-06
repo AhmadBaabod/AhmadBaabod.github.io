@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img">
+  <title>Illustration of the Minimax Tic-Tac-Toe AI</title>
+  <desc>A game board beside a branching decision tree, showing how the AI evaluates possible moves.</desc>
+  <rect width="720" height="480" fill="#211911"/>
+  <path d="M32 32h656v416H32z" fill="#30251b" stroke="#68513a"/>
+  <text x="60" y="76" fill="#c2b9ab" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">GAME SEARCH / MINIMAX</text>
+  <rect x="67" y="111" width="292" height="292" fill="#eee8dc"/>
+  <path d="M164 111v292m98-292v292M67 208h292m-292 97h292" stroke="#89877f" stroke-width="3"/>
+  <path d="m94 139 42 42m0-42-42 42m195 0 42 42m0-42-42 42" stroke="#9b5b32" stroke-width="8" stroke-linecap="square"/>
+  <circle cx="211" cy="158" r="23" fill="none" stroke="#d18b3b" stroke-width="8"/>
+  <circle cx="115" cy="255" r="23" fill="none" stroke="#d18b3b" stroke-width="8"/>
+  <path d="m289 332 42 42m0-42-42 42" stroke="#9b5b32" stroke-width="8" stroke-linecap="square"/>
+  <rect x="112" y="323" width="202" height="66" fill="none" stroke="#e6a14a" stroke-width="3"/>
+  <text x="412" y="133" fill="#eee8dc" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2">POSSIBLE MOVES</text>
+  <g stroke="#c9c7c0" stroke-width="2">
+    <path d="M542 164v53m0 0-82 53m82-53 82 53m-82 0-48 54m48-54 48 54"/>
+  </g>
+  <circle cx="542" cy="158" r="12" fill="#e6a14a"/>
+  <circle cx="460" cy="270" r="10" fill="#eee8dc"/>
+  <circle cx="624" cy="270" r="10" fill="#eee8dc"/>
+  <circle cx="494" cy="327" r="9" fill="#c9c7c0"/>
+  <circle cx="590" cy="327" r="9" fill="#f1bd72"/>
+  <text x="412" y="388" fill="#c2b9ab" font-family="Arial,sans-serif" font-size="14">Evaluate. Choose. Play.</text>
+</svg>
