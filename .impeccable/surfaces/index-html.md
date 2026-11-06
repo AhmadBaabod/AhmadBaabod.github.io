@@ -17,7 +17,7 @@ Recruiters and hiring managers need a fast, credible view of Ahmad's academic ba
 
 ## Proof and content
 
-Use the supplied portrait, confirmed Effat University and AI concentration details, self-reported 3.89/4.0 GPA, public GitHub projects, the supplied Coursera and freeCodeCamp certificates and verification links, courses studied including Software Engineering, Data Science, Database Systems, and Web Application Development, participation in StartSmart and the Hajj and Umrah Conference & Exhibition, and the user's stated Arabic and English languages and problem-solving ability.
+Use the supplied portrait, confirmed Effat University and AI concentration details, self-reported 3.89/4.0 GPA, public GitHub projects, the supplied Coursera and freeCodeCamp certificates and verification links, courses studied including Software Engineering, Data Science, Database Systems, and Web Application Development, a 3rd-place achievement in StartSmart, participation in the Hajj and Umrah Conference & Exhibition, and the user's stated Arabic and English languages and problem-solving ability.
 
 ## Constraints
 

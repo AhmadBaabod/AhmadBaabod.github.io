@@ -45,6 +45,7 @@ Use the name Ahmad Baabod and the user's supplied portrait. Preserve the existin
 - Public course repositories include Machine Learning Course (CS4082 lab notebooks, Fall 2026), Deep-Learning-course, and AI search/knowledge algorithms coursework.
 - Ahmad also confirms studying Software Engineering, Data Science, Database Systems, and Web Application Development at Effat University.
 - Ahmad has participated in multiple competitions and events, including StartSmart and the Hajj and Umrah Conference & Exhibition. He says he gained experience and learned business skills, including how to start a project.
+- Ahmad says his team achieved 3rd place in the StartSmart competition.
 
 ## Product Principles
 
