@@ -41,6 +41,7 @@ Use the name Ahmad Baabod and the user's supplied portrait. Preserve the existin
 - Public repositories under `AhmadBaabod`, including project and course repositories.
 - Public project evidence confirms an ACL Recovery Coach mobile app, a Minimax Tic-Tac-Toe AI, AI/search coursework, a real-time chat app, a Code Blue timing calculator, and JavaScript todo practice project.
 - GPA: 3.89/4.0, supplied by Ahmad.
+- Ahmad says he is on the Dean's List.
 - Coursera certificates: Programming for Everybody (Getting Started with Python), Python Data Structures, Using Python to Access Web Data, The Great Sustainability Transition: Global Challenges, Local Actions, Digital Communication and Emotion, and Personal Productivity, Time Management and Prioritization.
 - Public course repositories include Machine Learning Course (CS4082 lab notebooks, Fall 2026), Deep-Learning-course, and AI search/knowledge algorithms coursework.
 - Ahmad also confirms studying Software Engineering, Data Science, Database Systems, and Web Application Development at Effat University.
