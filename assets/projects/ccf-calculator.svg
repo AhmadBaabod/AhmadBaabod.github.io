@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img">
+  <title>Illustration of the Code Blue timing calculator</title>
+  <desc>A clinical event timer and timeline for keeping track of medication timing.</desc>
+  <rect width="720" height="480" fill="#211911"/>
+  <path d="M32 32h656v416H32z" fill="#30251b" stroke="#68513a"/>
+  <text x="60" y="76" fill="#c2b9ab" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">CODE BLUE / EVENT TIMING</text>
+  <rect x="74" y="112" width="572" height="280" fill="#17120e" stroke="#89877f" stroke-width="2"/>
+  <rect x="95" y="135" width="252" height="170" fill="#30251b" stroke="#68513a"/>
+  <text x="120" y="167" fill="#c2b9ab" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">ELAPSED TIME</text>
+  <text x="120" y="254" fill="#f1bd72" font-family="Arial,sans-serif" font-size="68" font-weight="700">00:00</text>
+  <path d="M120 275h185" stroke="#e6a14a" stroke-width="3"/>
+  <text x="383" y="163" fill="#c2b9ab" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">EVENT LOG</text>
+  <path d="M383 189v132" stroke="#89877f" stroke-width="2"/>
+  <circle cx="383" cy="198" r="7" fill="#e6a14a"/>
+  <circle cx="383" cy="244" r="7" fill="#c9c7c0"/>
+  <circle cx="383" cy="290" r="7" fill="#c9c7c0"/>
+  <path d="M404 198h145m-145 46h117m-117 46h133" stroke="#c9c7c0" stroke-width="4"/>
+  <path d="M95 337h520" stroke="#68513a" stroke-width="2"/>
+  <text x="95" y="366" fill="#eee8dc" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">A VISUAL AID FOR CLINICAL TEAMS</text>
+  <text x="60" y="430" fill="#c2b9ab" font-family="Arial,sans-serif" font-size="13">Timing support — not clinical guidance.</text>
+</svg>

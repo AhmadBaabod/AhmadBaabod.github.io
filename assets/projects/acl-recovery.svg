@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img">
+  <title>Illustration of the ACL Recovery Coach project</title>
+  <desc>A mobile rehabilitation tracker showing an exercise plan and progress notes.</desc>
+  <rect width="720" height="480" fill="#211911"/>
+  <path d="M32 32h656v416H32z" fill="#30251b" stroke="#68513a"/>
+  <path d="M58 67h12m14 0h12" stroke="#e6a14a" stroke-width="4"/>
+  <text x="58" y="108" fill="#c2b9ab" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">MOBILE PROJECT / REHABILITATION</text>
+  <rect x="241" y="36" width="238" height="408" rx="28" fill="#17120e" stroke="#c9c7c0" stroke-width="3"/>
+  <rect x="255" y="60" width="210" height="362" rx="17" fill="#eee8dc"/>
+  <rect x="328" y="47" width="64" height="5" rx="3" fill="#89877f"/>
+  <text x="278" y="97" fill="#51483d" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2">ACL RECOVERY</text>
+  <text x="278" y="130" fill="#211d18" font-family="Arial,sans-serif" font-size="23" font-weight="700">Your plan</text>
+  <path d="M278 150h164" stroke="#d3c8b7" stroke-width="2"/>
+  <text x="278" y="178" fill="#665e53" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">EXERCISE LOG</text>
+  <rect x="278" y="194" width="164" height="50" fill="#e4dccf"/>
+  <circle cx="296" cy="219" r="8" fill="#e6a14a"/>
+  <path d="m292 219 3 3 6-7" fill="none" stroke="#211d18" stroke-width="2"/>
+  <path d="M315 213h93m-93 11h64" stroke="#89877f" stroke-width="4"/>
+  <rect x="278" y="254" width="164" height="50" fill="#e4dccf"/>
+  <circle cx="296" cy="279" r="8" fill="#c9c7c0"/>
+  <path d="M315 273h79m-79 11h52" stroke="#89877f" stroke-width="4"/>
+  <text x="278" y="335" fill="#665e53" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">PROGRESS NOTES</text>
+  <path d="M280 359h160m-160 14h132m-132 14h145" stroke="#c9c7c0" stroke-width="3"/>
+  <path d="M99 313c44-54 64-54 101 0" fill="none" stroke="#e6a14a" stroke-width="3" stroke-dasharray="6 8"/>
+  <circle cx="100" cy="313" r="8" fill="#e6a14a"/>
+  <circle cx="199" cy="313" r="8" fill="#f1bd72"/>
+  <text x="58" y="356" fill="#eee8dc" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2">PLAN</text>
+  <text x="532" y="193" fill="#eee8dc" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2">TRACK</text>
+  <path d="M518 209h127" stroke="#e6a14a" stroke-width="2"/>
+  <text x="532" y="239" fill="#c2b9ab" font-family="Arial,sans-serif" font-size="13">Recovery, one step</text>
+  <text x="532" y="259" fill="#c2b9ab" font-family="Arial,sans-serif" font-size="13">at a time.</text>
+</svg>

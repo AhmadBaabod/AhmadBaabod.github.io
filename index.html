@@ -286,8 +286,25 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
     }
 
     .project-feature {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      align-items: center;
+      gap: clamp(2rem, 5vw, 4.5rem);
       margin-bottom: 1.5rem;
+      padding-block: 1.5rem;
       border-block: 1px solid var(--line);
+    }
+    .project-feature-art {
+      overflow: hidden;
+      aspect-ratio: 3 / 2;
+      background: var(--tray);
+      border: 1px solid var(--line);
+    }
+    .project-feature-art img, .project-thumb {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
     .project-copy { max-width: 820px; padding-block: 2rem; }
     .project-type {
@@ -324,11 +341,16 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
     .project-list { border-top: 1px solid var(--line); }
     .project-row {
       display: grid;
-      grid-template-columns: minmax(160px, .38fr) minmax(0, 1fr) auto;
+      grid-template-columns: minmax(150px, 190px) minmax(0, 1fr) auto;
       gap: 1.5rem;
       align-items: center;
       padding-block: 1.55rem;
       border-bottom: 1px solid var(--line);
+    }
+    .project-thumb {
+      aspect-ratio: 4 / 3;
+      border: 1px solid var(--line);
+      background: var(--tray);
     }
     .project-row h3 { margin: 0 0 .5rem; font-size: 1.8rem; }
     .project-row .project-type { font-size: .72rem; }
@@ -470,7 +492,10 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
       .hero-meta { grid-area: meta; margin-top: .3rem; }
       .about-grid, .study-layout { grid-template-columns: 1fr; }
       .academic-print { max-width: 390px; }
-      .project-row { grid-template-columns: 1fr; gap: .5rem; padding-block: 1.25rem; }
+      .project-feature { grid-template-columns: 1fr; gap: 0; }
+      .project-feature-art { aspect-ratio: 16 / 9; }
+      .project-row { grid-template-columns: 1fr; gap: .75rem; padding-block: 1.25rem; }
+      .project-row .project-thumb { aspect-ratio: 16 / 9; max-height: 220px; }
       .project-row .project-link { justify-self: start; margin-top: .3rem; }
       .skill-ledger { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .proof-pair { grid-template-columns: 1fr; gap: 1.3rem; }
@@ -572,16 +597,8 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
           <p>A selection of projects and course work—each one a record of a problem I wanted to understand and solve.</p>
         </div>
         <article class="project-feature">
-          <div class="project-feature-art" aria-hidden="true">
-            <svg viewBox="0 0 360 260" fill="none">
-              <rect x="34" y="24" width="292" height="212" rx="3" stroke="#E6A14A" stroke-width="2"/>
-              <path d="M62 197h235M75 170h60l25-36 37 22 35-56 49 30" stroke="#F1BD72" stroke-width="4"/>
-              <circle cx="160" cy="134" r="8" fill="#EEE8DC"/>
-              <circle cx="197" cy="156" r="8" fill="#EEE8DC"/>
-              <circle cx="232" cy="100" r="8" fill="#EEE8DC"/>
-              <path d="M75 67h99M75 82h71" stroke="#C9C7C0" stroke-width="2" opacity=".8"/>
-              <path d="M274 52v31m-15-15h30" stroke="#E6A14A" stroke-width="3"/>
-            </svg>
+          <div class="project-feature-art">
+            <img src="assets/projects/acl-recovery.svg" alt="Illustration of a rehabilitation tracker with an exercise plan and progress notes">
           </div>
           <div class="project-copy">
             <span class="project-type">Flutter · Health &amp; recovery</span>
@@ -594,8 +611,9 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
 
         <div class="project-list">
           <article class="project-row">
-            <div><span class="project-type">Artificial intelligence · Game search</span></div>
+            <img class="project-thumb" src="assets/projects/tic-tac-toe-ai.svg" alt="Illustration of a Tic-Tac-Toe board and Minimax decision tree">
             <div>
+              <span class="project-type">Artificial intelligence · Game search</span>
               <h3>Tic-Tac-Toe AI</h3>
               <p>An unbeatable Tic-Tac-Toe opponent built with the Minimax algorithm. The project explores how a search strategy can evaluate possible moves and choose an optimal play.</p>
               <div class="tag-row"><span class="tag">Minimax</span><span class="tag">Game AI</span></div>
@@ -603,8 +621,9 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
             <a class="project-link" href="https://github.com/AhmadBaabod/Tic-Tac-Toe" target="_blank" rel="noreferrer">View on GitHub ↗</a>
           </article>
           <article class="project-row">
-            <div><span class="project-type">Artificial intelligence · Coursework</span></div>
+            <img class="project-thumb" src="assets/projects/search-knowledge.svg" alt="Illustration of a graph with a highlighted breadth-first search path">
             <div>
+              <span class="project-type">Artificial intelligence · Coursework</span>
               <h3>Search &amp; Knowledge Algorithms</h3>
               <p>Coursework exploring Breadth-First Search and knowledge-base reasoning, including finding paths through a graph of Saudi cities.</p>
               <div class="tag-row"><span class="tag">BFS</span><span class="tag">Knowledge representation</span></div>
@@ -612,8 +631,9 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
             <a class="project-link" href="https://github.com/AhmadBaabod/Lab3_Search_and_knowledge_algorithms" target="_blank" rel="noreferrer">View on GitHub ↗</a>
           </article>
           <article class="project-row">
-            <div><span class="project-type">Artificial intelligence · Coursework</span></div>
+            <img class="project-thumb" src="assets/projects/machine-learning.svg" alt="Illustration of machine-learning lab data points and a model curve">
             <div>
+              <span class="project-type">Artificial intelligence · Coursework</span>
               <h3>Machine Learning Labs</h3>
               <p>CS4082 course lab notebooks, documenting practical work and continued study in machine learning.</p>
               <div class="tag-row"><span class="tag">Machine learning</span><span class="tag">Python notebooks</span></div>
@@ -621,8 +641,9 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
             <a class="project-link" href="https://github.com/AhmadBaabod/Machine-learning-course" target="_blank" rel="noreferrer">View on GitHub ↗</a>
           </article>
           <article class="project-row">
-            <div><span class="project-type">Web development · Full stack</span></div>
+            <img class="project-thumb" src="assets/projects/chat-app.svg" alt="Illustration of a real-time chat conversation">
             <div>
+              <span class="project-type">Web development · Full stack</span>
               <h3>Chat App</h3>
               <p>A real-time chat application exploring live client-server communication.</p>
               <div class="tag-row"><span class="tag">JavaScript</span><span class="tag">Node.js</span><span class="tag">Socket.io</span></div>
@@ -630,8 +651,9 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
             <a class="project-link" href="https://github.com/AhmadBaabod/chat-app" target="_blank" rel="noreferrer">View on GitHub ↗</a>
           </article>
           <article class="project-row">
-            <div><span class="project-type">Healthcare · Calculator</span></div>
+            <img class="project-thumb" src="assets/projects/ccf-calculator.svg" alt="Illustration of an event timer and timeline for a Code Blue timing calculator">
             <div>
+              <span class="project-type">Healthcare · Calculator</span>
               <h3>CCF Calculator</h3>
               <p>A Code Blue timing calculator designed to help clinical teams keep track of medication timing during an emergency.</p>
               <div class="tag-row"><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span></div>
@@ -639,8 +661,9 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
             <a class="project-link" href="https://github.com/AhmadBaabod/CCFcalculator" target="_blank" rel="noreferrer">View on GitHub ↗</a>
           </article>
           <article class="project-row">
-            <div><span class="project-type">Web development · Fundamentals</span></div>
+            <img class="project-thumb" src="assets/projects/todo-app.svg" alt="Illustration of a JavaScript task list with completed items">
             <div>
+              <span class="project-type">Web development · Fundamentals</span>
               <h3>Todo App</h3>
               <p>A focused JavaScript project for practicing DOM manipulation, application state, and user interaction.</p>
               <div class="tag-row"><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span></div>

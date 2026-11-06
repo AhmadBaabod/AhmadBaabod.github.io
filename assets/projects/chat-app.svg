@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img">
+  <title>Illustration of the real-time chat app</title>
+  <desc>Two connected conversation panels with alternating message bubbles.</desc>
+  <rect width="720" height="480" fill="#211911"/>
+  <path d="M32 32h656v416H32z" fill="#30251b" stroke="#68513a"/>
+  <text x="60" y="76" fill="#c2b9ab" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">WEB DEVELOPMENT / REAL-TIME CHAT</text>
+  <rect x="70" y="113" width="580" height="286" fill="#eee8dc"/>
+  <path d="M70 164h580" stroke="#c9c7c0" stroke-width="2"/>
+  <circle cx="101" cy="139" r="8" fill="#e6a14a"/>
+  <text x="122" y="145" fill="#211d18" font-family="Arial,sans-serif" font-size="16" font-weight="700">Conversation</text>
+  <circle cx="611" cy="139" r="5" fill="#82906c"/>
+  <text x="576" y="144" text-anchor="end" fill="#665e53" font-family="Arial,sans-serif" font-size="11">LIVE</text>
+  <rect x="101" y="190" width="238" height="48" fill="#d9d0c3"/>
+  <path d="m112 238 17 0-9 12z" fill="#d9d0c3"/>
+  <path d="M122 207h178m-178 13h139" stroke="#89877f" stroke-width="4"/>
+  <rect x="382" y="252" width="230" height="48" fill="#e6a14a"/>
+  <path d="m595 300 17 0-9 12z" fill="#e6a14a"/>
+  <path d="M403 269h177m-177 13h123" stroke="#665e53" stroke-width="4"/>
+  <rect x="101" y="321" width="271" height="48" fill="#d9d0c3"/>
+  <path d="m112 369 17 0-9 12z" fill="#d9d0c3"/>
+  <path d="M122 338h213m-213 13h161" stroke="#89877f" stroke-width="4"/>
+  <path d="M70 419h580" stroke="#e6a14a" stroke-width="3"/>
+  <text x="60" y="440" fill="#eee8dc" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">CLIENT ↔ SERVER ↔ CLIENT</text>
+</svg>

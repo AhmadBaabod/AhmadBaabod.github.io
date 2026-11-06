@@ -162,7 +162,7 @@ The system is predominantly square-edged. Controls, dividers, project rows, and 
 - A rectangular paper mat with an inset hairline, silver-toned portrait image, and a caption along the print edge; preserve the real portrait as the hero image.
 
 ### Project Record
-- A ruled text-led record introduces the lead project, without implying a screenshot exists; subsequent projects use variable-height rows with type, truthful summary, technology tags, and a direct repository link.
+- A featured project pairs a truthful summary with an original illustration; subsequent projects use illustrated, variable-height rows with type, summary, technology tags, and a direct repository link. Label original artwork as illustrations, not product screenshots.
 
 ## Do's and Don'ts
 
