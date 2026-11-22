@@ -162,7 +162,7 @@ The system is predominantly square-edged. Controls, dividers, project rows, and 
 - A rectangular paper mat with an inset hairline, silver-toned portrait image, and a caption along the print edge; preserve the real portrait as the hero image.
 
 ### Project Record
-- A featured project pairs a truthful summary with an original illustration; subsequent projects use illustrated, variable-height rows with type, summary, technology tags, and a direct repository link. Label original artwork as illustrations, not product screenshots.
+- All projects share one row format at the same level: a 4:3 picture on the left, then type, title, summary, technology tags, and a repository link. Apps with a real interface (HealthLens, ACL Recovery Coach) show actual UI screenshots set on the tray color; other projects use original illustrations, and alt text says which is which. Work in progress shows an "In progress" label in place of the link.
 
 ## Do's and Don'ts
 

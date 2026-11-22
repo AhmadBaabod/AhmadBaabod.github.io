@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img">
+  <title>Illustration of a crowd simulation map</title>
+  <desc>A route map between pilgrimage sites with clustered agent dots and a density hotspot.</desc>
+  <rect width="720" height="480" fill="#211911"/>
+  <path d="M32 32h656v416H32z" fill="#30251b" stroke="#68513a"/>
+  <text x="60" y="76" fill="#c2b9ab" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">MANSAK / IN PROGRESS</text>
+  <rect x="66" y="108" width="588" height="292" fill="#eee8dc"/>
+  <g stroke="#c9c7c0" stroke-width="1">
+    <path d="M66 181h588M66 254h588M66 327h588M213 108v292M360 108v292M507 108v292"/>
+  </g>
+  <path d="M130 340C200 300 230 220 320 210S470 260 520 190 590 150 610 140" fill="none" stroke="#665e53" stroke-width="5" stroke-dasharray="2 12" stroke-linecap="round"/>
+  <circle cx="330" cy="212" r="58" fill="#e6a14a" opacity=".22"/>
+  <circle cx="330" cy="212" r="34" fill="#e6a14a" opacity=".35"/>
+  <g fill="#9b5b32">
+    <circle cx="318" cy="204" r="5"/><circle cx="334" cy="198" r="5"/><circle cx="346" cy="214" r="5"/><circle cx="326" cy="222" r="5"/>
+    <circle cx="310" cy="218" r="5"/><circle cx="340" cy="230" r="5"/><circle cx="352" cy="200" r="5"/><circle cx="322" cy="190" r="5"/>
+  </g>
+  <g fill="#89877f">
+    <circle cx="160" cy="326" r="5"/><circle cx="182" cy="312" r="5"/><circle cx="214" cy="290" r="5"/><circle cx="240" cy="258" r="5"/>
+    <circle cx="420" cy="236" r="5"/><circle cx="462" cy="244" r="5"/><circle cx="500" cy="214" r="5"/><circle cx="560" cy="170" r="5"/>
+  </g>
+  <g fill="#211d18">
+    <rect x="118" y="330" width="22" height="22"/><rect x="508" y="178" width="22" height="22"/><rect x="600" y="128" width="22" height="22"/>
+  </g>
+  <text x="60" y="431" fill="#eee8dc" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">SIMULATE / ANTICIPATE / PREPARE</text>
+  <path d="M60 444h270" stroke="#e6a14a" stroke-width="3"/>
+</svg>
