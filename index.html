@@ -392,18 +392,46 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
     .study-layout { display: grid; grid-template-columns: .75fr 1.25fr; gap: clamp(2rem, 7vw, 7rem); }
     .study-aside p { max-width: 40ch; margin: 0; color: #514d46; }
     .study-aside .gpa { margin-top: 1.4rem; }
-    .course-list { border-top: 1px solid rgba(33, 29, 24, .22); }
+    .study-aside { align-self: start; position: sticky; top: 6rem; }
+    .study-aside .grade-note { margin-top: 1rem; font-size: .94rem; }
+    .course-group {
+      margin: 2rem 0 0;
+      padding-bottom: .55rem;
+      border-bottom: 2px solid var(--ink);
+      color: #684011;
+      font-family: "Source Sans 3", "Segoe UI", sans-serif;
+      font-size: .8rem;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+    .course-group:first-child { margin-top: 0; }
     .course-row {
       display: grid;
       grid-template-columns: 1fr auto;
       gap: 1rem;
-      align-items: start;
-      padding-block: 1rem;
+      align-items: center;
+      padding-block: .75rem;
       border-bottom: 1px solid rgba(33, 29, 24, .22);
     }
-    .course-row h3 { margin: 0; font-size: 1.45rem; line-height: 1.15; }
-    .course-row p { margin: .25rem 0 0; color: #514d46; font-size: .94rem; }
+    .course-row h4 { margin: 0; font-family: "Barlow Condensed", Impact, sans-serif; font-size: 1.3rem; font-weight: 600; line-height: 1.15; }
+    .course-row p { margin: .15rem 0 0; color: #514d46; font-size: .9rem; }
     .course-row a { color: #684011; font-weight: 700; text-underline-offset: .2em; white-space: nowrap; }
+    .grade {
+      min-width: 2.6rem;
+      padding: .2rem .5rem;
+      border: 1px solid rgba(33, 29, 24, .35);
+      color: var(--ink);
+      font-weight: 700;
+      text-align: center;
+    }
+    .grade.now {
+      border-color: #684011;
+      color: #684011;
+      font-size: .7rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
 
     .certificate-list { border-top: 1px solid var(--line); }
     .certificate-row {
@@ -485,6 +513,7 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
       .hero-actions { grid-area: actions; margin-top: .6rem; }
       .hero-meta { grid-area: meta; margin-top: .3rem; }
       .about-grid, .study-layout { grid-template-columns: 1fr; }
+      .study-aside { position: static; }
       .academic-print { max-width: 390px; }
       .project-row { grid-template-columns: 1fr; gap: .75rem; padding-block: 1.25rem; }
       .project-row .project-link, .project-row .project-status { justify-self: start; margin-top: .3rem; }
@@ -718,31 +747,79 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
           <div class="study-aside">
             <p>Computer Science studies at Effat University, with a concentration in Artificial Intelligence.</p>
             <p class="gpa">3.89 <span>/ 4.0 GPA</span></p>
+            <p class="grade-note">Every completed course listed here earned an A or A+.</p>
           </div>
           <div class="course-list" aria-label="Courses studied">
+            <h3 class="course-group">AI &amp; data</h3>
             <article class="course-row">
-              <div><h3>Machine Learning</h3><p>CS4082 lab notebooks · Effat University</p></div>
-              <a href="https://github.com/AhmadBaabod/Machine-learning-course" target="_blank" rel="noreferrer">Course work ↗</a>
+              <div><h4>Artificial Intelligence</h4><p>CS 3081 · <a href="https://github.com/AhmadBaabod/AI_Assignment_2" target="_blank" rel="noreferrer">Coursework ↗</a></p></div>
+              <span class="grade" aria-label="Grade A+">A+</span>
             </article>
             <article class="course-row">
-              <div><h3>Deep Learning</h3><p>CS4085 lab notebooks · Effat University</p></div>
-              <a href="https://github.com/AhmadBaabod/Deep-Learning-course" target="_blank" rel="noreferrer">Course work ↗</a>
+              <div><h4>Machine Learning</h4><p>CS 4082 · Fall 2026 · <a href="https://github.com/AhmadBaabod/Machine-learning-course" target="_blank" rel="noreferrer">Lab notebooks ↗</a></p></div>
+              <span class="grade now">In progress</span>
             </article>
             <article class="course-row">
-              <div><h3>Artificial Intelligence</h3><p>CS3081 · AI coursework and assignments</p></div>
-              <a href="https://github.com/AhmadBaabod/AI_Assignment_2" target="_blank" rel="noreferrer">Course work ↗</a>
+              <div><h4>Deep Learning</h4><p>CS 4085 · Fall 2026 · <a href="https://github.com/AhmadBaabod/Deep-Learning-course" target="_blank" rel="noreferrer">Lab notebooks ↗</a></p></div>
+              <span class="grade now">In progress</span>
             </article>
             <article class="course-row">
-              <div><h3>Software Engineering</h3><p>Computer Science coursework · Effat University</p></div>
+              <div><h4>Data Science</h4><p>CS 3072</p></div>
+              <span class="grade" aria-label="Grade A">A</span>
             </article>
             <article class="course-row">
-              <div><h3>Data Science</h3><p>Computer Science coursework · Effat University</p></div>
+              <div><h4>Statistics for Computing</h4><p>STAT 201</p></div>
+              <span class="grade" aria-label="Grade A">A</span>
+            </article>
+            <h3 class="course-group">Software &amp; systems</h3>
+            <article class="course-row">
+              <div><h4>Data Structures &amp; Algorithms</h4><p>CS 2011</p></div>
+              <span class="grade" aria-label="Grade A+">A+</span>
             </article>
             <article class="course-row">
-              <div><h3>Database Systems</h3><p>Computer Science coursework · Effat University</p></div>
+              <div><h4>Algorithm Analysis</h4><p>CS 3012</p></div>
+              <span class="grade" aria-label="Grade A+">A+</span>
             </article>
             <article class="course-row">
-              <div><h3>Web Application Development</h3><p>Computer Science coursework · Effat University</p></div>
+              <div><h4>Software Engineering</h4><p>CS 3151</p></div>
+              <span class="grade" aria-label="Grade A">A</span>
+            </article>
+            <article class="course-row">
+              <div><h4>Object-Oriented Programming</h4><p>CS 2132</p></div>
+              <span class="grade" aria-label="Grade A+">A+</span>
+            </article>
+            <article class="course-row">
+              <div><h4>Database Systems</h4><p>CS 2071</p></div>
+              <span class="grade" aria-label="Grade A+">A+</span>
+            </article>
+            <article class="course-row">
+              <div><h4>Web Application Development</h4><p>CS 2111</p></div>
+              <span class="grade" aria-label="Grade A+">A+</span>
+            </article>
+            <article class="course-row">
+              <div><h4>Computer Networks</h4><p>CS 2091</p></div>
+              <span class="grade" aria-label="Grade A+">A+</span>
+            </article>
+            <article class="course-row">
+              <div><h4>Computer Architecture &amp; Organization</h4><p>CS 1021</p></div>
+              <span class="grade" aria-label="Grade A+">A+</span>
+            </article>
+            <article class="course-row">
+              <div><h4>Operating Systems</h4><p>CS 3101 · Fall 2026</p></div>
+              <span class="grade now">In progress</span>
+            </article>
+            <h3 class="course-group">Mathematics</h3>
+            <article class="course-row">
+              <div><h4>Linear Algebra</h4><p>MATH 307</p></div>
+              <span class="grade" aria-label="Grade A">A</span>
+            </article>
+            <article class="course-row">
+              <div><h4>Discrete Mathematics</h4><p>MATH 203</p></div>
+              <span class="grade" aria-label="Grade A+">A+</span>
+            </article>
+            <article class="course-row">
+              <div><h4>Numerical Analysis</h4><p>MATH 310 · Fall 2026</p></div>
+              <span class="grade now">In progress</span>
             </article>
           </div>
         </div>
