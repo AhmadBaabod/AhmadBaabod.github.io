@@ -39,7 +39,7 @@ Use the name Ahmad Baabod and the user's supplied portrait. Preserve the existin
 - User-provided portrait attachment.
 - Existing site content and logo in `index.html` and `logo.png`.
 - Public repositories under `AhmadBaabod`, including project and course repositories.
-- Public project evidence confirms the HealthLens multi-disease risk prediction team project, an ACL Recovery Coach mobile app, machine learning and deep learning coursework, a real-time chat app, a Code Blue timing calculator, and JavaScript todo practice project. Mansak (a Hajj crowd simulation) is in progress and is shown without a repository link at Ahmad's request.
+- Public project evidence confirms the HealthLens multi-disease risk prediction team project, an ACL Recovery Coach mobile app, machine learning and deep learning coursework, a real-time chat app, a Code Blue timing calculator, and JavaScript todo practice project. Mansak (a Hajj crowd simulation that also generates an optimized operational plan for safer operations at lower cost and risk, per Ahmad) is in progress and is shown without a repository link at Ahmad's request.
 - GPA: 3.89/4.0, supplied by Ahmad.
 - Ahmad says he is on the Dean's List.
 - Coursera certificates: Programming for Everybody (Getting Started with Python), Python Data Structures, Using Python to Access Web Data, The Great Sustainability Transition: Global Challenges, Local Actions, Digital Communication and Emotion, and Personal Productivity, Time Management and Prioritization.
