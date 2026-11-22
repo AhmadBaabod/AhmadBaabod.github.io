@@ -446,6 +446,20 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
     .certificate-row p { margin: .2rem 0 0; color: var(--muted); font-size: .9rem; }
     .certificate-row a { color: var(--amber-light); font-size: .9rem; font-weight: 700; text-underline-offset: .2em; white-space: nowrap; }
     .certificate-row .download { color: var(--paper); }
+    .certificate-row .verify-only { grid-column: 3; }
+    .cert-group {
+      margin: 2rem 0 0;
+      padding-bottom: .55rem;
+      border-bottom: 1px solid var(--amber);
+      color: var(--amber-light);
+      font-family: "Source Sans 3", "Segoe UI", sans-serif;
+      font-size: .8rem;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+    .cert-group:first-child { margin-top: 1rem; }
+    .skill-ledger span:last-child:nth-child(4n+1) { grid-column: 1 / -1; }
 
     .contact-section { padding-block: clamp(5rem, 10vw, 8rem); }
     .contact-grid {
@@ -518,6 +532,7 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
       .project-row { grid-template-columns: 1fr; gap: .75rem; padding-block: 1.25rem; }
       .project-row .project-link, .project-row .project-status { justify-self: start; margin-top: .3rem; }
       .skill-ledger { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .skill-ledger span:last-child:nth-child(2n+1) { grid-column: 1 / -1; }
       .proof-pair { grid-template-columns: 1fr; gap: 1.3rem; }
       .certificate-row { grid-template-columns: 1fr auto; gap: .3rem 1rem; }
       .certificate-row .download { grid-column: 2; grid-row: 1; }
@@ -714,6 +729,8 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
           <span>C#</span><span>Node.js</span><span>Flutter &amp; Dart</span><span>HTML &amp; CSS</span>
           <span>REST APIs</span><span>Back-end Development</span><span>Database Systems</span><span>Web Applications</span>
           <span>Data Science</span><span>Git &amp; GitHub</span><span>Machine Learning</span><span>Search Algorithms</span>
+          <span>Artificial Intelligence</span><span>Deep Learning</span><span>Scikit-learn</span><span>Multi-agent Systems</span>
+          <span>Agentic AI Development</span>
         </div>
       </div>
     </section>
@@ -830,9 +847,19 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
       <div class="wrap">
         <div class="section-heading">
           <h2>Certificates &amp; further study</h2>
-          <p>Six completed Coursera non-credit courses. Each credential links to its Coursera verification page and a local certificate copy.</p>
+          <p>Sixteen completed certificates from Coursera, DeepLearning.AI and freeCodeCamp. Each links to its verification page; earlier ones also include a certificate copy.</p>
         </div>
         <div class="certificate-list">
+          <h3 class="cert-group">Technical</h3>
+          <article class="certificate-row">
+            <div><h3>Neural Networks and Deep Learning</h3><p>DeepLearning.AI · Coursera · Nov 2026</p></div>
+            <a class="verify-only" href="https://coursera.org/verify/0DAV6SCTHAON" target="_blank" rel="noreferrer">Verify ↗</a>
+          </article>
+          <article class="certificate-row">
+            <div><h3>Back End Development and APIs</h3><p>freeCodeCamp · Developer Certification · May 26, 2023</p></div>
+            <a class="download" href="assets/certificates/freecodecamp-back-end-development-and-apis.png" target="_blank" rel="noreferrer">View certificate</a>
+            <a href="https://freecodecamp.org/certification/fcc30d17ba66-1edc-4bbe-bb3e-2ad0fbbd5a31/back-end-development-and-apis" target="_blank" rel="noreferrer">Verify ↗</a>
+          </article>
           <article class="certificate-row">
             <div><h3>Programming for Everybody (Getting Started with Python)</h3><p>University of Michigan · Coursera</p></div>
             <a class="download" href="assets/certificates/Coursera QE25RGYRWP25.pdf" target="_blank" rel="noreferrer">View PDF</a>
@@ -848,10 +875,38 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
             <a class="download" href="assets/certificates/Coursera H39C0WFW1ZME.pdf" target="_blank" rel="noreferrer">View PDF</a>
             <a href="https://coursera.org/verify/H39C0WFW1ZME" target="_blank" rel="noreferrer">Verify ↗</a>
           </article>
+          <h3 class="cert-group">Professional &amp; business</h3>
           <article class="certificate-row">
-            <div><h3>The Great Sustainability Transition: Global Challenges, Local Actions</h3><p>Universiteit Leiden · Coursera</p></div>
-            <a class="download" href="assets/certificates/Coursera 3FGAB8SMQJYP.pdf" target="_blank" rel="noreferrer">View PDF</a>
-            <a href="https://coursera.org/verify/3FGAB8SMQJYP" target="_blank" rel="noreferrer">Verify ↗</a>
+            <div><h3>Business Strategy: Business Model Canvas Analysis with Miro</h3><p>Coursera · Apr 2026</p></div>
+            <a class="verify-only" href="https://coursera.org/verify/UMVJMDRJZQ7D" target="_blank" rel="noreferrer">Verify ↗</a>
+          </article>
+          <article class="certificate-row">
+            <div><h3>Create a Business Mind Map with Coggle</h3><p>Coursera · Apr 2026</p></div>
+            <a class="verify-only" href="https://coursera.org/verify/C74QJ1D172OZ" target="_blank" rel="noreferrer">Verify ↗</a>
+          </article>
+          <article class="certificate-row">
+            <div><h3>Intellectual Property as Competitive Advantage for Companies</h3><p>EDHEC Business School · Coursera · Apr 2026</p></div>
+            <a class="verify-only" href="https://coursera.org/verify/A60B2H5XU3QD" target="_blank" rel="noreferrer">Verify ↗</a>
+          </article>
+          <article class="certificate-row">
+            <div><h3>Change Management</h3><p>Packt · Coursera · Nov 2026</p></div>
+            <a class="verify-only" href="https://coursera.org/verify/A7DB5ZGCYZSM" target="_blank" rel="noreferrer">Verify ↗</a>
+          </article>
+          <article class="certificate-row">
+            <div><h3>Employment Contracts</h3><p>University of Pennsylvania · Coursera · Nov 2026</p></div>
+            <a class="verify-only" href="https://coursera.org/verify/GVP8I5OUI2WV" target="_blank" rel="noreferrer">Verify ↗</a>
+          </article>
+          <article class="certificate-row">
+            <div><h3>Developing Interpersonal Skills</h3><p>IBM · Coursera · Nov 2026</p></div>
+            <a class="verify-only" href="https://coursera.org/verify/TAJ639QEQMAG" target="_blank" rel="noreferrer">Verify ↗</a>
+          </article>
+          <article class="certificate-row">
+            <div><h3>Preparation for Job Interviews</h3><p>Coursera · Nov 2026</p></div>
+            <a class="verify-only" href="https://coursera.org/verify/J7MR4RVEJ31R" target="_blank" rel="noreferrer">Verify ↗</a>
+          </article>
+          <article class="certificate-row">
+            <div><h3>Workplace Ethics and Professionalism</h3><p>LearnKartS · Coursera · Nov 2026</p></div>
+            <a class="verify-only" href="https://coursera.org/verify/3FTNT1495JEG" target="_blank" rel="noreferrer">Verify ↗</a>
           </article>
           <article class="certificate-row">
             <div><h3>Digital Communication and Emotion</h3><p>Arizona State University · Coursera</p></div>
@@ -864,9 +919,9 @@ FORM: Replace the existing portfolio with assigned candidate 6 of 7, Developer's
             <a href="https://coursera.org/verify/Z3ZW95GVQJEV" target="_blank" rel="noreferrer">Verify ↗</a>
           </article>
           <article class="certificate-row">
-            <div><h3>Back End Development and APIs</h3><p>freeCodeCamp · Developer Certification · May 26, 2023</p></div>
-            <a class="download" href="assets/certificates/freecodecamp-back-end-development-and-apis.png" target="_blank" rel="noreferrer">View certificate</a>
-            <a href="https://freecodecamp.org/certification/fcc30d17ba66-1edc-4bbe-bb3e-2ad0fbbd5a31/back-end-development-and-apis" target="_blank" rel="noreferrer">Verify ↗</a>
+            <div><h3>The Great Sustainability Transition: Global Challenges, Local Actions</h3><p>Universiteit Leiden · Coursera</p></div>
+            <a class="download" href="assets/certificates/Coursera 3FGAB8SMQJYP.pdf" target="_blank" rel="noreferrer">View PDF</a>
+            <a href="https://coursera.org/verify/3FGAB8SMQJYP" target="_blank" rel="noreferrer">Verify ↗</a>
           </article>
         </div>
       </div>
